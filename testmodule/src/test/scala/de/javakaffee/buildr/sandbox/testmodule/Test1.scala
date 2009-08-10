@@ -3,7 +3,7 @@ package de.javakaffee.buildr.sandbox.testmodule
 import org.testng.annotations._
 import org.testng.Assert._
 
-class TestA extends BaseTest {
+class Test1 extends BaseTest {
   
   @Test
   def testClass1 {
