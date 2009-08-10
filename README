@@ -1,1 +1,6 @@
 A place to test things related to buildr
+
+- The testmodule shows that the test/build does not fail even if
+  there's a configuration error. Just run `buildr clean test' and
+  see if the build is failing or if it's successful - for me the
+  test is successful
