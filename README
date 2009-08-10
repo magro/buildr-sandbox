@@ -7,4 +7,5 @@ A place to test things related to buildr
 
 - Test testmodule2 contains two tests Test1 and Test2, where Test2
   has a test method that fails. Though, a `buildr clean test' does
-  finish successfully
+  finish successfully - at least with buildr 1.3.4. With test latest
+  buildr trunk the build is marked as failed.
