@@ -4,3 +4,7 @@ A place to test things related to buildr
   there's a configuration error. Just run `buildr clean test' and
   see if the build is failing or if it's successful - for me the
   test is successful
+
+- Test testmodule2 contains two tests Test1 and Test2, where Test2
+  has a test method that fails. Though, a `buildr clean test' does
+  finish successfully

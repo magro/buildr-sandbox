@@ -1,4 +1,5 @@
 .classpath
 .project
-testmodule/target
-testmodule/reports
+testmodule*/target
+testmodule*/reports
+testmodule*/.manager/

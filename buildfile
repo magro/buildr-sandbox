@@ -24,4 +24,10 @@ define "buildr-sandbox" do
     package :jar
   end
 
+  desc "The module that contains a failing test"
+  define "testmodule2" do
+    test.using :testng
+    package :jar
+  end
+
 end
